@@ -1,2 +1,4 @@
 name: Teszt site
 markdown: kramdown
+
+theme: jekyll-theme-cayman
