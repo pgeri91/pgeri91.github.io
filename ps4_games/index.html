@@ -3,4 +3,8 @@ layout: base
 title: PS4 játékok
 ---
 
-# Teszt header
+{% for post in site.categories.verslagen %}
+<p>{{post.title}}</p>
+<p>{{ post.date | date: "%b %d, %Y" }}</p>
+<p>{{post.thumbnail}}</p>
+{% endfor %}
