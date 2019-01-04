@@ -4,6 +4,12 @@ title: PS4 játékok
 ---
 
 {% for post in site.categories.ps4_games %}
-<p>{{post.title}}</p>
-<p>{{post.thumbnail}}</p>
+<div class="card bg-dark text-white">
+  <img class="card-img" src="..." alt="Card image">
+  <div class="card-img-overlay">
+    <h5 class="card-title">{{post.title}}</h5>
+    <p class="card-text">{{post.thumbnail}}</p>
+  </div>
+</div>
 {% endfor %}
+
