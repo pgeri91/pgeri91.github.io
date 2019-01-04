@@ -4,7 +4,11 @@ title: PS4 játékok
 ---
 
 {% for post in site.categories.ps4_games %}
+{% if post.owned == true %}
+<div class="card bg-success mb-3" style="width: 18rem;">
+{% else %}
 <div class="card bg-light mb-3" style="width: 18rem;">
+{% endif %}
   <img class="card-img-top" src="{{post.image}}" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title">{{post.title}}</h5>
