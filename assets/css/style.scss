@@ -12,7 +12,11 @@
   }
 }
 
-.card-flip,
+.card-flip {
+  width: 18rem;
+  height: 480px; 
+}
+
 .front,
 .back {
   width: 100%;
