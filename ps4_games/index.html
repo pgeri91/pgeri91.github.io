@@ -1,6 +1,6 @@
 ---
 layout: base
-title: PS4 játékok
+title: PS4 games
 ---
 
 <style type="text/css">
@@ -9,15 +9,13 @@ title: PS4 játékok
     background-size: cover;
     background-position: 50%;
   }
-  header {
-    background-color: #000000aa;
-    color: #eee;
-  }
 </style>
-<header>
-  <h1>PS4 játékok</h1>
-  <h4>A zöldek megvannak/voltak!</h4>
-</header>
+<div class="card bg-light text-dark">
+  <div class="card-body">
+      <h1 class="card-title">PS4 játékok</h1>
+      <h5 class="card-subtitle">A zöldek megvannak/voltak!</h5>
+  </div>
+</div>
 <div class="row">
     {% for post in site.categories.ps4_games %}
     <div class="col-sm-6 col-lg-4">
