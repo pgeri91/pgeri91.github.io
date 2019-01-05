@@ -17,13 +17,13 @@ layout: default
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
+      <li class="nav-item {% if page.title == 'Home' %}active{% endif %}">
         <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item {% if page.title == 'Blog' %}active{% endif %}">
         <a class="nav-link" href="/blog">Blog</a>
       </li>
-	  	<li class="nav-item">
+	  	<li class="nav-item {% if page.title == 'PS4 games' %}active{% endif %}">
         <a class="nav-link" href="/ps4_games">PS4 games</a>
       </li>
     </ul>
