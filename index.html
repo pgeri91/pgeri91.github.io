@@ -1,10 +1,10 @@
 ---
 layout: base
-title: Vértes Könyvtár | Kezdőlap
+title: Geri's wishlist
 ---
 <div class="list">
     <div class="box">
-    <h1 class="title is-4 mb-2">Játékok</h1>
+    <h4 class="title is-4 mb-2">Játékok</h4>
     {% for wishlist_item in site.wishlist_items %}
         {% if wishlist_item.type == "videogame" %}
             <div class="list-item box">
@@ -15,7 +15,7 @@ title: Vértes Könyvtár | Kezdőlap
             </div>
 
             <div class="list-item-content">
-              <div class="list-item-title"><a href="{{wishlist_item.url}}">{{ wishlist_item.name }}</a></div>
+              <div class="list-item-title"><a href="{{wishlist_item.link}}">{{ wishlist_item.name }}</a></div>
                 <div class="list-item-description">
                     <div class="tag">🏷 {{wishlist_item.price}}</div>
                 {{ wishlist_item.content }}
