@@ -6,12 +6,38 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
         <title>pgeri91's wishlist</title>
-        
+
         <link rel="stylesheet" href="/css/bulma.min.css">
         <link rel="stylesheet" href="/css/bulma-list.css">
 
     </head>
     <body>
+        <div class="box" id="contacts" data-example>
+            <h1 class="title is-4 mb-2">Contacts</h1>
+            <div class="list">
+                {% for wishlist_item in site.wishlist_items %}
+                <div class="list-item">
+                    <div class="list-item-image">
+                      <figure class="image is-48x48">
+                        <img class="is-rounded" src="https://images.unsplash.com/photo-1506803682981-6e718a9dd3ee?ixlib=rb-0.3.5&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&s=c3a31eeb7efb4d533647e3cad1de9257" alt="">
+                      </figure>
+                    </div>
+
+                    <div class="list-item-content">
+                      <div class="list-item-title">{{ wishlist_item.name }}</div>
+                      <div class="list-item-description">
+                        <div class="tag is-rounded">alfredo@example.com</div>
+                        <div class="tag is-rounded">+64 22 049 5863</div>
+                      </div>
+                    </div>
+                  </div>
+                {% endfor %} 
+            </div>
+        </div>
+        {% for wishlist_item in site.wishlist_items %}
+            <h2>{{ staff_member.name }} - {{ staff_member.position }}</h2>
+            <p>{{ staff_member.content | markdownify }}</p>
+        {% endfor %}
         <section class="section container is-max-desktop">
   <h1 class="title is-5 has-text-grey">
     <a href="https://github.com/bluefantail/bulma-list" target="_blank">

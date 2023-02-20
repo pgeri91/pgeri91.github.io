@@ -2,3 +2,5 @@ name: pgeri91.github.io
 markdown: kramdown
 theme: jekyll-theme-cayman
 repository: pgeri91/pgeri91.github.io
+collections:
+  - wishlist_items
