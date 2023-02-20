@@ -3,6 +3,8 @@ layout: base
 title: Vértes Könyvtár | Kezdőlap
 ---
 <div class="list">
+  <div class="box">
+    <h1 class="title is-4 mb-2">Játékok</h1>
   {% for wishlist_item in site.wishlist_items %}
       <div class="list-item box">
         <div class="list-item-image">
@@ -17,4 +19,10 @@ title: Vértes Könyvtár | Kezdőlap
         </div>
       </div>
   {% endfor %}
+  <ul>
+  {% for tag in page.tags %}
+  <li>{{ tag }}</li>
+  {% endfor %}
+  </ul>
+  </div>
 </div>
