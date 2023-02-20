@@ -1,17 +1,7 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8" />
-        <!-- <meta name="viewport" content="width=device-width" /> -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-        <title>pgeri91's wishlist</title>
-
-        <link rel="stylesheet" href="/css/bulma.min.css">
-        <link rel="stylesheet" href="/css/bulma-list.css">
-
-    </head>
-    <body>
+---
+layout: base
+title: Vértes Könyvtár | Kezdőlap
+---
         <div class="box" id="contacts" data-example>
             <h1 class="title is-4 mb-2">Contacts</h1>
             <div class="list">
@@ -34,10 +24,6 @@
                 {% endfor %} 
             </div>
         </div>
-        {% for wishlist_item in site.wishlist_items %}
-            <h2>{{ staff_member.name }} - {{ staff_member.position }}</h2>
-            <p>{{ staff_member.content | markdownify }}</p>
-        {% endfor %}
         <section class="section container is-max-desktop">
   <h1 class="title is-5 has-text-grey">
     <a href="https://github.com/bluefantail/bulma-list" target="_blank">
@@ -635,5 +621,3 @@
   </div>
   
 </section>
-    </body>
-</html>
