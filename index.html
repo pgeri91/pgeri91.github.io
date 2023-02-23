@@ -41,7 +41,13 @@ title: Geri kívánságlistája
 
                                 {% if wishlist_item.tags %}
                                     {% for tag in wishlist_item.tags %}
-                                        <div class="tag is-{{tag.color}}">{{tag.name | upcase}}</div>
+                                    {% if tag.light == true %}
+                                    {% assign light = "is-light" %}
+                                    {% else %}
+                                    {% assign light = "" %}
+                                    {% endif %}
+                                        <div class="tag is-{{tag.color}} {{light}}">{{tag.name | upcase}}</div>
+                                    
                                     {% endfor %}
                                 {% endif %}
                             {{ wishlist_item.content }}

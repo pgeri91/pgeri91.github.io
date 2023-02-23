@@ -6,4 +6,5 @@ price: 20000 Ft
 tags: 
     - name: "ps5"
       color: "info"
+      light: true
 ---

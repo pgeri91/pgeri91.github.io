@@ -5,4 +5,5 @@ link: "https://hardverapro.hu/aprok/szoftver_jatek/playstation/playstation_5/jat
 tags: 
     - name: "ps5"
       color: "info"
+      light: true
 ---
