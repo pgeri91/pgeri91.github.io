@@ -13,7 +13,7 @@ title: Geri's wishlist
               </div>
         </section>
         <div class="box">
-            {% assign sorted = site.wishlist_items | sort: 'priority' | reverse %}
+            {% assign sorted = site.wishlist_items | sort: 'priority' %}
             {% for wishlist_item in sorted %}
                 {% if wishlist_item.category == category.id %}
                     <div class="list-item">
