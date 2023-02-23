@@ -1,8 +1,8 @@
 ---
 layout: base
-title: Geri's wishlist
+title: Geri kívánságlistája
 ---
-<h1 class="title is-1">Geri's wishlist</h1>
+<h1 class="title is-1">{{page.title}}</h1>
 <div class="list">
     {% for category in site.wishlist_categories %}
         <section class="hero is-dark" style="background-size: cover; background-image: url('/assets/wishlist_category_bgs/{{category.id}}.jpg');">
@@ -13,7 +13,7 @@ title: Geri's wishlist
               </div>
         </section>
         <div class="box">
-            {% assign sorted = site.wishlist_items | sort: 'priority' %}
+            {% assign sorted = site.wishlist_items | sort: 'name' | sort: 'priority' %}
             {% for wishlist_item in sorted %}
                 {% if wishlist_item.category == category.id %}
                     <div class="list-item">
@@ -34,7 +34,7 @@ title: Geri's wishlist
                                     {{ wishlist_item.name }}
                                 {% endif %}
                                 {% if wishlist_item.price %}
-                                <span class="has-text-weight-semibold has-text-grey">{{wishlist_item.price}}</span>
+                                <span class="tag is-medium">{{wishlist_item.price}}</span>
                                 {% endif %}
                             </div>
                             <div class="list-item-description">
