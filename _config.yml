@@ -7,7 +7,7 @@ collections:
 github: [metadata]
 wishlist_categories:
     - id: record
-      name: "Lemezek (LP)"
+      name: "Lemezek"
     - id: videogame
       name: "Videójátékok"
     - id: computer
