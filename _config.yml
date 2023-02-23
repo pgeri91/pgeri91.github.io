@@ -18,3 +18,5 @@ wishlist_categories:
       name: "Szoba"
     - id: sound-instruments
       name: "Hang(szer)"
+    - id: misc
+      name: "Egyéb"

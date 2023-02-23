@@ -5,5 +5,5 @@ link: "https://hardverapro.hu/aprok/szoftver_jatek/playstation/playstation_5/jat
 price: 20000 Ft
 tags: 
     - name: "ps5"
-      color: "primary"
+      color: "info"
 ---

@@ -4,5 +4,5 @@ name: "Alien Isolation"
 link: "https://hardverapro.hu/aprok/szoftver_jatek/playstation/keres.php?stext=alien%20isolation"
 tags: 
     - name: "ps4"
-      color: "primary"
+      color: "info"
 ---
