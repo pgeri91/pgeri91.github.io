@@ -2,15 +2,61 @@
 layout: base
 title: Geri's wishlist
 ---
-<h1 class="is-1">Geri's wishlist</h1>
+<h1 class="title is-1">Geri's wishlist</h1>
 <div class="list">
-    <div class="box">
-    <h4 class="title is-4 mb-2">Játékok</h4>
+    {% for category in site.wishlist_categories %}
+        <section class="hero is-primary" style="background-size: cover; background-image: url('/assets/wishlist_category_bgs/{{category.id}}.jpg');">
+              <div class="hero-body">
+                <p class="title">
+                  {{category.name}}
+                </p>
+              </div>
+        </section>
+        <div class="box">
+            {% assign sorted = site.wishlist_items | sort: 'priority' | reverse %}
+            {% for wishlist_item in sorted %}
+                {% if wishlist_item.category == category.id %}
+                    <div class="list-item">
+                        {% if wishlist_item.has_image != false %}
+                            <div class="list-item-image">
+                                <figure class="image is-48x48">
+                                    <img class="" src="{{wishlist_item.url | replace:'.html','.jpg'}}">
+                                </figure>
+                            </div>
+                        {% endif %}
+                        
+
+                        <div class="list-item-content">
+                            <div class="list-item-title is-flex is-justify-content-space-between">
+                                {% if wishlist_item.link %}
+                                    <a href="{{wishlist_item.link}}">{{ wishlist_item.name }}</a>
+                                {% else %}
+                                    {{ wishlist_item.name }}
+                                {% endif %}
+                                {% if wishlist_item.price %}
+                                <span class="has-text-weight-semibold has-text-grey">{{wishlist_item.price}}</span>
+                                {% endif %}
+                            </div>
+                            <div class="list-item-description">
+
+                                {% if wishlist_item.tags %}
+                                    {% for tag in wishlist_item.tags %}
+                                        <div class="tag is-{{tag.color}}">{{tag.name | upcase}}</div>
+                                    {% endfor %}
+                                {% endif %}
+                            {{ wishlist_item.content }}
+                            </div>
+                        </div>
+                    </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+    {% endfor %}
     {% for wishlist_item in site.wishlist_items %}
         {% if wishlist_item.type == "videogame" %}
-            <div class="list-item box">
+            <div class="list-item">
             <div class="list-item-image">
-              <figure class="image is-64x64">
+              <figure class="image is-48x48">
                 <img class="" src="{{wishlist_item.url | replace:'.html','.jpg'}}">
               </figure>
             </div>
@@ -18,17 +64,13 @@ title: Geri's wishlist
             <div class="list-item-content">
               <div class="list-item-title"><a href="{{wishlist_item.link}}">{{ wishlist_item.name }}</a></div>
                 <div class="list-item-description">
-                    <div class="tag">🏷 {{wishlist_item.price}}</div>
+                    <div class="tag is-primary">{{wishlist_item.console | upcase}}</div>
                 {{ wishlist_item.content }}
                 </div>
             </div>
             </div>
         {% endif %}
     {% endfor %}
-    <ul>
-    {% for tag in page.tags %}
-    <li>{{ tag }}</li>
-    {% endfor %}
-    </ul>
     </div>
 </div>
+<div class="divider"></div>

@@ -1,6 +1,20 @@
 name: pgeri91.github.io
 markdown: kramdown
-theme: jekyll-theme-cayman
+theme: minima
 repository: pgeri91/pgeri91.github.io
 collections:
-  - wishlist_items
+    - wishlist_items
+github: [metadata]
+wishlist_categories:
+    - id: record
+      name: "Lemezek (LP)"
+    - id: videogame
+      name: "Videójátékok"
+    - id: computer
+      name: "Számítógép alkatrész-periféria"
+    - id: electronics
+      name: "Hobbi-elektronika"
+    - id: interior
+      name: "Szoba"
+    - id: sound-instruments
+      name: "Hang(szer)"
