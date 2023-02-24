@@ -16,7 +16,7 @@ wishlist_categories:
       name: "Számítógép alkatrész-periféria"
       has_bg: true
     - id: interior
-      name: "Szoba"
+      name: "Lakberendezés"
       has_bg: true
     - id: sound-instruments
       name: "Hang(szer)"
