@@ -8,15 +8,22 @@ github: [metadata]
 wishlist_categories:
     - id: record
       name: "Lemezek"
+      has_bg: true
     - id: videogame
       name: "Videójátékok"
+      has_bg: true
     - id: computer
       name: "Számítógép alkatrész-periféria"
-    - id: electronics
-      name: "Hobbi-elektronika"
+      has_bg: true
     - id: interior
       name: "Szoba"
+      has_bg: true
     - id: sound-instruments
       name: "Hang(szer)"
+      has_bg: true
+    - id: electronics
+      name: "Hobbi-elektronika"
+      has_bg: true
     - id: misc
       name: "Egyéb"
+      has_bg: false
