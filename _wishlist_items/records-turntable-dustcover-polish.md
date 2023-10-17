@@ -1,7 +1,7 @@
 ---
 category: record
 name: "Meguiar's ScratchX 2.0"
-link: "https://www.emag.hu/meguiar-s-scratchx-eu-karceltavolito-oldat-207ml-g10307eumg/pd/D0X1RLBBM/"
+link: "https://www.alza.hu/auto/meguiars-scratchx-2-0-d4803357.htm?evt=ac"
 price: "9000 Ft"
 priority: 6
 ---
