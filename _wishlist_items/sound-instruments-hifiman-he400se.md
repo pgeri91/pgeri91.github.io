@@ -5,3 +5,4 @@ link: "https://www.arukereso.hu/fulhallgato-fejhallgato-c3109/hifiman/he400se-p6
 price: "60000 Ft"
 has_image: true
 ---
+Aliexpressről 30k.
