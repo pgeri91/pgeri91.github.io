@@ -61,7 +61,9 @@ permalink: /wishlist/
                                         <div class="tag is-{{tag.color}} {{light}}">{{tag.name | upcase}}</div>
                                     {%- endfor -%}
                                 {%- endif -%}
-                            {{ wishlist_item.content }}
+                                <div class="content">
+                                    {{ wishlist_item.content }}
+                                </div>
                             </div>
                         </div>
                         {%- if wishlist_item.price -%}
