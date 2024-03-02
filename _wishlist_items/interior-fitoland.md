@@ -2,7 +2,7 @@
 category: interior
 name: "fitoland.hu rendelés"
 link: ""
-price: "13000 Ft"
+price: "11000 Ft"
 has_image: true
 ---
  - [1250Ft - Florimo Kertészeti Perlit 5L](https://www.fitoland.hu/kategoriak/ultetokozegek_37/florimo-kerteszeti-perlit_13)
