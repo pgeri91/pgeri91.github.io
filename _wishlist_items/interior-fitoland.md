@@ -10,4 +10,4 @@ has_image: true
  - [1600Ft - Orchidea virágföld - Hochwertiges 2L](https://www.fitoland.hu/kategoriak/ultetokozegek_37/orchidea-viragfold---hochwertiges-2l_13326)
  - [1000Ft - Florimo Szobanövény Tápoldat 500ml](https://www.fitoland.hu/kategoriak/tapanyagok_38/florimo-szobanoveny-tapoldat-500ml_2756)
  - [1500Ft - Műanyag cserép - Provence - Zöld (1x15cm+1x17cm)](https://www.fitoland.hu/kategoriak/manyag-cserepek-alatetek_210/manyag-cserep---provence---zold-szinben_19813)
- - [5000Ft - Kerámia kaspó - fehér (matt) (2x17cm)](https://www.fitoland.hu/kategoriak/keramia-kaspok_28/keramia-kaspo---feher-matt_672757)
+ - [2500Ft - Kerámia kaspó - fehér (matt) (17cm)](https://www.fitoland.hu/kategoriak/keramia-kaspok_28/keramia-kaspo---feher-matt_672757)
