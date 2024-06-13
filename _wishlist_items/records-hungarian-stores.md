@@ -1,6 +1,6 @@
 ---
 category: record
 name: "Magyar boltok"
-link: "https://miklosecurity.chickenkiller.com/vinyl_hun"
+link: "https://pgeri91.mooo.com/vinyl_hun"
 priority: 3
 ---
