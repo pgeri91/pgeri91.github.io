@@ -1,8 +1,8 @@
 ---
 category: electronics
-name: "KADA 852D+ 220v forrasztóállomás"
+name: "YIHUA 938BD-II 220v forrasztóállomás"
 link: "https://www.aliexpress.com/item/33052788242.html"
-price: "20000 Ft"
+price: "30000 Ft"
 has_image: true
 tags: 
     - name: "aliexpress"
