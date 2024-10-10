@@ -26,4 +26,4 @@ wishlist_categories:
       has_bg: true
     - id: misc
       name: "Egyéb"
-      has_bg: false
+      has_bg: true
