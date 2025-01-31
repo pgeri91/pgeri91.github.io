@@ -1,8 +1,8 @@
 ---
 category: electronics
-name: "YIHUA 938BD-II 220v forrasztóállomás"
-link: "https://www.aliexpress.com/item/1005006854295710.html"
-price: "30000 Ft"
+name: "Silverflo 938BD-III forrasztóállomás"
+link: "https://www.aliexpress.com/item/1005006292891481.html"
+price: "28000 Ft"
 has_image: true
 tags: 
     - name: "aliexpress"
