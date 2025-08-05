@@ -31,6 +31,7 @@ def validate_md_files(folder_path):
     if failed:
         for filename, error in failed:
             print(f"[FAIL]  {filename}: {error}")
+        sys.exit(1)
     else:
         print("No errors found")
 
