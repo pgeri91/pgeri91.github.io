@@ -33,7 +33,7 @@ def validate_md_files(folder_path):
             print(f"[FAIL]  {filename}: {error}")
         sys.exit(1)
     else:
-        print("No errors found")
+        print("No errors found in the .md files")
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
