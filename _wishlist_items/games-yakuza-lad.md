@@ -7,3 +7,4 @@ tags:
       color: "info"
       light: true
 ---
+[[Allegro]](https://allegro.hu/termek/yakuza-like-a-dragon-playstation-5-ps5-dobozos-e770cca1-14f7-45b6-a22c-24820312cfc4)
