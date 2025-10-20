@@ -1,0 +1,9 @@
+.box {
+    border-top-right-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+}
+
+.hero {
+    border-top-right-radius: 0.75rem !important;
+    border-top-left-radius: 0.75rem !important;
+}
