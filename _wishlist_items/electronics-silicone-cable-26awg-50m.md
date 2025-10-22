@@ -1,8 +1,8 @@
 ---
 category: electronics
 name: "50m 26AWG flexibilis elektromos kábel"
-link: "https://www.aliexpress.com/item/32752574340.html"
-price: "7000 Ft"
+link: "https://www.aliexpress.com/item/1005007391168450.html"
+price: "4000 Ft"
 has_image: true
 tags: 
     - name: "aliexpress"
