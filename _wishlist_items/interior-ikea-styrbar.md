@@ -5,3 +5,4 @@ link: "https://www.ikea.com/hu/hu/p/symfonisk-hangero-szabalyozo-2-generacio-905
 price: "5000 Ft"
 has_image: true
 ---
+Kifutó termék.
